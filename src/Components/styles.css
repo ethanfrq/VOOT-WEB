@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Natural+Precision:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../assets/VOOT_baniere.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Natural Precision', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: -20px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur noire avec une opacité de 0.5 */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.footer a {
+  font-weight: bold;
+  color: white;
+}
+
+.header-logo {
+    margin-right: auto; /* Cela poussera le logo vers la gauche */
+}
+
+.nav {
+    flex-grow: 1;
+    text-align: center;
+}
+  
+  
